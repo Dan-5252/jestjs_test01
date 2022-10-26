@@ -1,0 +1,28 @@
+{
+  "name": "jest-example",
+  "version": "0.0.4",
+  "description": "A simple example of testing with Jest.",
+  "main": "index.js",
+  "repository": "https://github.com/bnz-digital/jest-example.git",
+  "author": "Charles Munat <Charles_Munat@bnz.co.nz>",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "acorn": "7.3.1",
+    "handlebars": "4.7.6",
+    "jest": "29.2.2",
+    "js-yaml": "3.14.0",
+    "lodash": "4.17.15",
+    "minimist": "1.2.5",
+    "mixin-deep": "2.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "jest",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "react-scripts": "1.0.0"
+  }
+}
